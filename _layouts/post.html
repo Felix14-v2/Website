@@ -113,6 +113,7 @@ layout: default
 
 {%- if page.downloads -%}
 	<h2 class="display-4 my-5 text-center">Downloads</h2>
+	<p align="center"><a href="{{ site.baseurl }}/install">How to install Minecraft resource packs</a></p>
 	{%- for item in page.downloads -%}
 		<h1 class="my-3" align="center">{{ item.first | pop }}</h1>
 		{%- for subitem in item -%}
@@ -131,6 +132,7 @@ layout: default
 	{%- else -%}
 		<h2 class="display-4 my-5 text-center">Download</h2>
 	{%- endif -%}
+	<p align="center"><a href="{{ site.baseurl }}/install">How to install Minecraft resource packs</a></p>
 	{%- for item in page.download -%}
 		<a href="{{ item.first | shift  | join: '</li><li>' }}" class="btn block btn-lg btn-primary fancy-card-2x my-3"><i style="margin-right: 5px" class="fas fa-download"></i>{{ item.first | pop}}</a>
 	{%- endfor -%}

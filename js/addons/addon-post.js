@@ -100,6 +100,7 @@ export default {
                     <template v-else><v-icon color="white">mdi-link</v-icon> Download Link</template>
                   </a>
                 </template>
+                <p align="center"><a href="../../install">How to install Minecraft resource packs</a></p>
               </div>
             </v-col>
             <v-col>
